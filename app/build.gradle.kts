@@ -40,7 +40,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.play.services.wearable)
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)
@@ -68,5 +67,26 @@ dependencies {
     //Falta esta dependencia
     implementation("androidx.compose.material3:material3:1.3.2")
     implementation(libs.compose.material.v140beta03)
+
+    // Dependencias que ocupo como producto
+    implementation("androidx.navigation:navigation-compose:2.9.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
+    //implementation("androidx.compose.material3:material3:1.3.2")
+    //implementation("androidx.compose.ui:ui:1.8.3")
+    //implementation("androidx.compose.material:material-icons-extended:1.7.8")
+
+    //Dependencias ajenas
+    implementation("androidx.wear.compose:compose-material:1.4.1")
+    implementation("androidx.wear.compose:compose-foundation:1.4.1")
+    implementation("androidx.compose.ui:ui:1.8.3")
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+
+    //dependencias
+    implementation("androidx.wear.compose:compose-material:1.4.1")
+    implementation("androidx.wear.compose:compose-navigation:1.4.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.1")
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
 
 }

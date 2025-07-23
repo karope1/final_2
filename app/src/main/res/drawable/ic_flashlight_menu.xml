@@ -1,0 +1,24 @@
+<!-- res/drawable/ic_flashlight_menu.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">  <!-- Usa el color de control normal del tema, o especifica un color como #FFFFFF -->
+
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M6,2h12v3h-12z"/> <!-- Parte superior/cabeza de la linterna -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M7,6h10v13h-10z"/> <!-- Cuerpo principal de la linterna -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M9,20h6v2h-6z"/> <!-- Interruptor/base de la linterna -->
+
+    <!-- Líneas de luz (opcional, para dar más idea de linterna) -->
+    <path
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="0.8"
+        android:pathData="M12,5 V0.5 M9,4 L6,1 M15,4 L18,1"/>
+</vector>

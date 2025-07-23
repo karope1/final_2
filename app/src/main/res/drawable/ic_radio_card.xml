@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    android:tint="?attr/colorControlNormal"> <!-- Usa el color del control actual, o especifica un color como #FFFFFF -->
+
+    <!-- Cuerpo principal de la radio (rectángulo) -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M4,6L20,6A2,2 0,0 1,22 8L22,18A2,2 0,0 1,20 20L4,20A2,2 0,0 1,2 18L2,8A2,2 0,0 1,4 6ZM4,8L4,18L20,18L20,8L4,8Z"/>
+
+    <!-- Antena simple -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M15,2L17,2L17,6L15,6Z"/>
+
+    <!-- "Altavoz" (círculo) -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M7,14m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+
+    <!-- Botones/Dial (círculos pequeños) -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M15,12m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M18,12m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M15,15m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M18,15m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+
+</vector>

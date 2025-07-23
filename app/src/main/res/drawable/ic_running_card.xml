@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    android:tint="?attr/colorControlNormal">
+
+    <!-- Cabeza -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,4m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Cuerpo y pierna adelantada -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M13.5,7L11,12L13,14L15,12L17,14L18,11L15.5,8.5Z"/>
+    <!-- Pierna atrasada -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M8.5,13L7,15L9,17L11.5,14.5L10,12Z"/>
+    <!-- Brazo -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M15,7L17,9L16,10L14,8Z"/>
+</vector>
